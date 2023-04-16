@@ -1,0 +1,30 @@
+<div class="Container">
+    <div class="box">
+        <form (ngSubmit)="DosubmitForm()">
+
+        <h1>Compose Email</h1>
+        <hr>
+        <h2>To</h2>
+        <mat-form-field class="feild" appearance="outline">
+            <mat-label>ex.abcd@gmail.com</mat-label>
+            <input name="To" [(ngModel)]="data.to" matInput>
+          </mat-form-field>
+          <h2>Subject</h2>
+          <mat-form-field class="feild" appearance="outline">
+            <mat-label>ex.Leave submission</mat-label>
+            <input name="Subject" [(ngModel)]="data.subject" matInput>
+          </mat-form-field>
+          <mat-form-field class="feild">
+            <mat-label>Enter Your Message</mat-label>
+            <textarea name="Message" [(ngModel)]="data.message" rows="5" matInput placeholder="Ex. It makes me feel..."></textarea>
+          </mat-form-field>
+
+          <div class="sbuttons">
+
+          <button type="submit" mat-raised-button color="primary">Send</button>
+          <button type="reset" mat-raised-button color="accent" >Reset</button>
+        
+        </div>
+    </form>
+    </div>
+</div>
