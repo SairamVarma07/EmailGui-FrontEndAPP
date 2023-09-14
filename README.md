@@ -1,6 +1,6 @@
 # Emailgui
 
-WrbLink: https://email-gui.netlify.app/
+WebLink: https://email-gui.netlify.app/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
